@@ -7,14 +7,14 @@
 		<title>Silky</title>
 
     <meta name="description" content="Soccer Random: Play in fullscreen, ad-free, right in your browser! Enjoy exciting, unpredictable soccer matches with friends. Kick off the fun now!">
-    <link rel="icon" type="image/x-icon" href="../icon.png">
+    <link rel="icon" type="image/x-icon" href="icon.png">
 
 
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="../css/jquery-comments.css" />
-		<link rel="stylesheet" type="text/css" href="../css/user.css" />
-		<link rel="stylesheet" type="text/css" href="../css/style.css" />
-		<link rel="stylesheet" type="text/css" href="../css/custom.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-comments.css" />
+		<link rel="stylesheet" type="text/css" href="css/user.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
 		<!-- Font Awesome icons (free version)-->
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -103,6 +103,114 @@
 
 
 
+
+
+
+
+
+<div class="container game-wrapper">
+  <div class="row">
+      <div class="col-md-10">
+          	<div class="game-container">
+          		<div class="game-content" data-id="169">
+          			<div id="allow_mobile_version"></div>			
+               <!-- 
+                <div id="mobile-play" style="display: none;">
+          				<div class="mobile-thumb-play">
+          					<img src="#">
+          				</div>
+          				<div id="mobile-play-btn">
+          					<i class="bi bi-play-circle-fill"></i>
+          				</div>
+          			</div> -->
+
+
+
+          			<div class="game-iframe-container" id="game-player">
+          				<div id="mobile-back-button" draggable="true">
+          					<i class="bi bi-x-circle-fill"></i>
+          				</div>
+          				<iframe class="game-iframe" id="game-area" src="https://topvazstore.github.io/g8/soccer-random/" width="480" height="800" scrolling="none" frameborder="0" allowfullscreen></iframe>
+          			</div>
+          		</div>
+
+
+          		<div class="game-info">
+          			<div class="header-left">
+          				<h1 class="single-title">Soccer Random</h1>
+
+
+          			</div>
+          			<div class="header-right">
+
+
+          				<div class="b-action2">
+          		
+          					<a href="#" onclick="open_fullscreen()" class="btn btn-capsule"><i class="bi bi-arrows-fullscreen b-icon"></i>Fullscreen</a>
+          				</div>
+          			</div>
+          		</div>
+          	</div>
+
+      </div><!-- end col-9 -->
+      
+
+      <div class="col-md-2">
+        <div align="center">
+          <!-- <img src="https://storage.googleapis.com/website-production/uploads/2023/01/liveplan-banner-ad-example.png" width="300px" height="600px" alt="banner"> -->
+
+          <div class="col-12 list-grid">
+             <a href="/play/basket-random.html">
+              <div class="list-game">
+                <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/basket-random.png" class="small-thumb img-rounded"></div>
+              </div>
+            </a>
+          </div>  
+          <br/>
+
+          <div class="col-12 list-grid">
+             <a href="/play/volley-random.html">
+              <div class="list-game">
+                <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/volley-random.png" class="small-thumb img-rounded" ></div>
+              </div>
+            </a>
+          </div>  
+          <br/>
+
+          <div class="col-12 list-grid">
+            <a  href="/play/boxing-random.html">
+              <div class="list-game">
+                <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/boxing-random.png" class="small-thumb img-rounded" ></div>
+              </div>
+            </a>
+          </div>  
+
+
+
+        </div>
+      </div>
+
+
+
+  </div><!-- end row -->
+
+
+</div> <!-- end row container game-wrapper-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="container">
 
 
@@ -124,11 +232,135 @@
 		
 
 
+  <!-- Popular games section -->
+  <h3 class="section-title">Popular games</h3>
+  <div class="row grid-container">
+  
+<!--  
+
+  <div class="col-lg-4 col-md-6 grid-2">
+    <a href="/play/gameId.html">
+    <div class="game-item">
+      <div class="list-game">
+        <div class="list-thumbnail"><img src="imgLink" data-src="imgLink" class="small-thumb img-rounded lazyload" alt="Soccer Random"></div>
+        <div class="list-info">
+          <div class="list-title">Soccer Random</div>
+          <div class="list-category">gameCategory</div>
+    
+
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>          
+
+ -->
+
+
+
+
+
+
+
+
+  <div class="col-lg-4 col-md-6 grid-2">
+    <a href="/play/retro-bowl.html">
+    <div class="game-item">
+      <div class="list-game">
+        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/retro-bowl.png" data-src="https://topvazstore.github.io/img/retro-bowl.png" class="small-thumb img-rounded lazyload" alt="Retro Bowl"></div>
+        <div class="list-info">
+          <div class="list-title">Retro Bowl</div>
+          <div class="list-category">Sports</div>
+    
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>    <div class="col-lg-4 col-md-6 grid-2">
+    <a href="/play/monkey-mart.html">
+    <div class="game-item">
+      <div class="list-game">
+        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/monkey-mart.png" data-src="https://topvazstore.github.io/img/monkey-mart.png" class="small-thumb img-rounded lazyload" alt="Monkey Mart"></div>
+        <div class="list-info">
+          <div class="list-title">Monkey Mart</div>
+          <div class="list-category">for Girls</div>
+    
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>    <div class="col-lg-4 col-md-6 grid-2">
+    <a href="/play/burnin-rubber-crash-n-burn.html">
+    <div class="game-item">
+      <div class="list-game">
+        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/burnin-rubber-crash-n-burn.png" data-src="https://topvazstore.github.io/img/burnin-rubber-crash-n-burn.png" class="small-thumb img-rounded lazyload" alt="Burnin' Rubber Crash n' Burn"></div>
+        <div class="list-info">
+          <div class="list-title">Burnin' Rubber Crash n' Burn</div>
+          <div class="list-category">Racing</div>
+    
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>    <div class="col-lg-4 col-md-6 grid-2">
+    <a href="/play/soccer-skills-world-cup.html">
+    <div class="game-item">
+      <div class="list-game">
+        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/soccer-skills-world-cup.png" data-src="https://topvazstore.github.io/img/soccer-skills-world-cup.png" class="small-thumb img-rounded lazyload" alt="Soccer Skills World Cup"></div>
+        <div class="list-info">
+          <div class="list-title">Soccer Skills World Cup</div>
+          <div class="list-category">Sports</div>
+    
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>    <div class="col-lg-4 col-md-6 grid-2">
+    <a href="/play/basketball-stars.html">
+    <div class="game-item">
+      <div class="list-game">
+        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/basketball-stars.png" data-src="https://topvazstore.github.io/img/basketball-stars.png" class="small-thumb img-rounded lazyload" alt="Basketball Stars"></div>
+        <div class="list-info">
+          <div class="list-title">Basketball Stars</div>
+          <div class="list-category">Sports</div>
+    
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>    <div class="col-lg-4 col-md-6 grid-2">
+    <a href="/play/slope.html">
+    <div class="game-item">
+      <div class="list-game">
+        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/slope.png" data-src="https://topvazstore.github.io/img/slope.png" class="small-thumb img-rounded lazyload" alt="Slope"></div>
+        <div class="list-info">
+          <div class="list-title">Slope</div>
+          <div class="list-category">Running</div>
+    
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>  
+
+
+
+
+
+
+
+
+
+
+</div> <!-- end Poplular -->
+
+
+
 
 
 
 		<!-- New games section -->
-	<h3 class="section-title">Sports Games</h3>
+	<h3 class="section-title">You may like</h3>
 	<div class="row grid-container" id="new-games-section">
 	
 <!-- 	
@@ -156,15 +388,7 @@
 
 
 
-<div class="col-lg-2 col-md-4 col-6 grid-3">
-  <a href="/play/basketball-stars.html">
-  <div class="game-item">
-    <div class="list-game">
-      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/basketball-stars.png" data-src="https://topvazstore.github.io/img/basketball-stars.png" class="lazyload" alt="Basketball Stars"></div>
-    </div>
-  </div>
-  </a>
-</div>
+
 
 <div class="col-lg-2 col-md-4 col-6 grid-3">
   <a href="/play/tiny-fishing.html">
@@ -176,15 +400,6 @@
   </a>
 </div>
 
-<div class="col-lg-2 col-md-4 col-6 grid-3">
-  <a href="/play/basket-random.html">
-  <div class="game-item">
-    <div class="list-game">
-      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/basket-random.png" data-src="https://topvazstore.github.io/img/basket-random.png" class="lazyload" alt="Basket Random"></div>
-    </div>
-  </div>
-  </a>
-</div>
 
 <div class="col-lg-2 col-md-4 col-6 grid-3">
   <a href="/play/basketball-legends.html">
@@ -236,15 +451,7 @@
   </a>
 </div>
 
-<div class="col-lg-2 col-md-4 col-6 grid-3">
-  <a href="/play/soccer-random.html">
-  <div class="game-item">
-    <div class="list-game">
-      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/soccer-random.png" data-src="https://topvazstore.github.io/img/soccer-random.png" class="lazyload" alt="Soccer Random"></div>
-    </div>
-  </div>
-  </a>
-</div>
+
 
 <div class="col-lg-2 col-md-4 col-6 grid-3">
   <a href="/play/penalty-kick-online.html">
@@ -406,15 +613,7 @@
   </a>
 </div>
 
-<div class="col-lg-2 col-md-4 col-6 grid-3">
-  <a href="/play/burnin-rubber-crash-n-burn.html">
-  <div class="game-item">
-    <div class="list-game">
-      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/burnin-rubber-crash-n-burn.png" data-src="https://topvazstore.github.io/img/burnin-rubber-crash-n-burn.png" class="lazyload" alt="Burnin' Rubber Crash n' Burn"></div>
-    </div>
-  </div>
-  </a>
-</div>
+
 
 <div class="col-lg-2 col-md-4 col-6 grid-3">
   <a href="/play/tag.html">
@@ -926,15 +1125,7 @@
   </a>
 </div>
 
-<div class="col-lg-2 col-md-4 col-6 grid-3">
-  <a href="/play/volley-random.html">
-  <div class="game-item">
-    <div class="list-game">
-      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/volley-random.png" data-src="https://topvazstore.github.io/img/volley-random.png" class="lazyload" alt="Volley Random"></div>
-    </div>
-  </div>
-  </a>
-</div>
+
 
 <div class="col-lg-2 col-md-4 col-6 grid-3">
   <a href="/play/stickman-golf.html">
@@ -946,15 +1137,9 @@
   </a>
 </div>
 
-<div class="col-lg-2 col-md-4 col-6 grid-3">
-  <a href="/play/boxing-random.html">
-  <div class="game-item">
-    <div class="list-game">
-      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/boxing-random.png" data-src="https://topvazstore.github.io/img/boxing-random.png" class="lazyload" alt="Boxing Random"></div>
-    </div>
-  </div>
-  </a>
-</div>
+
+
+
 
 
 
@@ -972,28 +1157,10 @@
 
 
 
-  <!-- Popular games section -->
-  <h3 class="section-title">Popular games</h3>
-  <div class="row grid-container">
-  
-<!--  
 
-  <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/gameId.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="imgLink" data-src="imgLink" class="small-thumb img-rounded lazyload" alt="Soccer Random"></div>
-        <div class="list-info">
-          <div class="list-title">Soccer Random</div>
-          <div class="list-category">gameCategory</div>
-    
-
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>          
-
+<!-- 	<div class="b-load-more text-center">
+		<button class="btn btn-load-more btn-md" id="load-more1">Load More</button>
+	</div>
  -->
 
 
@@ -1004,202 +1171,6 @@
 
 
 
-  <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/retro-bowl.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/retro-bowl.png" data-src="https://topvazstore.github.io/img/retro-bowl.png" class="small-thumb img-rounded lazyload" alt="Retro Bowl"></div>
-        <div class="list-info">
-          <div class="list-title">Retro Bowl</div>
-          <div class="list-category">Sports</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/dreadhead-parkour.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/dreadhead-parkour.png" data-src="https://topvazstore.github.io/img/dreadhead-parkour.png" class="small-thumb img-rounded lazyload" alt="Dreadhead Parkour"></div>
-        <div class="list-info">
-          <div class="list-title">Dreadhead Parkour</div>
-          <div class="list-category">Sports</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/blumgi-ball.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/blumgi-ball.png" data-src="https://topvazstore.github.io/img/blumgi-ball.png" class="small-thumb img-rounded lazyload" alt="Blumgi Ball"></div>
-        <div class="list-info">
-          <div class="list-title">Blumgi Ball</div>
-          <div class="list-category">Sports</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/soccer-skills-world-cup.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/soccer-skills-world-cup.png" data-src="https://topvazstore.github.io/img/soccer-skills-world-cup.png" class="small-thumb img-rounded lazyload" alt="Soccer Skills World Cup"></div>
-        <div class="list-info">
-          <div class="list-title">Soccer Skills World Cup</div>
-          <div class="list-category">Sports</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/soccer-skills-euro-cup.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/soccer-skills-euro-cup.png" data-src="https://topvazstore.github.io/img/soccer-skills-euro-cup.png" class="small-thumb img-rounded lazyload" alt="Soccer Skills Euro Cup"></div>
-        <div class="list-info">
-          <div class="list-title">Soccer Skills Euro Cup</div>
-          <div class="list-category">Sports</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/gobble.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/gobble.png" data-src="https://topvazstore.github.io/img/gobble.png" class="small-thumb img-rounded lazyload" alt="Gobble"></div>
-        <div class="list-info">
-          <div class="list-title">Gobble</div>
-          <div class="list-category">for Girls</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/stacktris.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/stacktris.png" data-src="https://topvazstore.github.io/img/stacktris.png" class="small-thumb img-rounded lazyload" alt="Stacktris"></div>
-        <div class="list-info">
-          <div class="list-title">Stacktris</div>
-          <div class="list-category">Skill</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/stick-defenders.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/stick-defenders.png" data-src="https://topvazstore.github.io/img/stick-defenders.png" class="small-thumb img-rounded lazyload" alt="Stick Defenders"></div>
-        <div class="list-info">
-          <div class="list-title">Stick Defenders</div>
-          <div class="list-category">Mouse</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/sausage-flip.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/sausage-flip.png" data-src="https://topvazstore.github.io/img/sausage-flip.png" class="small-thumb img-rounded lazyload" alt="Sausage Flip"></div>
-        <div class="list-info">
-          <div class="list-title">Sausage Flip</div>
-          <div class="list-category">Skill</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/monster-tracks.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/monster-tracks.png" data-src="https://topvazstore.github.io/img/monster-tracks.png" class="small-thumb img-rounded lazyload" alt="Monster Tracks"></div>
-        <div class="list-info">
-          <div class="list-title">Monster Tracks</div>
-          <div class="list-category">Skill</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/raft-wars-2.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/raft-wars-2.png" data-src="https://topvazstore.github.io/img/raft-wars-2.png" class="small-thumb img-rounded lazyload" alt="Raft Wars 2"></div>
-        <div class="list-info">
-          <div class="list-title">Raft Wars 2</div>
-          <div class="list-category">Action</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/crossy-road.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/crossy-road.png" data-src="https://topvazstore.github.io/img/crossy-road.png" class="small-thumb img-rounded lazyload" alt="Crossy Road"></div>
-        <div class="list-info">
-          <div class="list-title">Crossy Road</div>
-          <div class="list-category">for Girls</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/super-mario-bros.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/super-mario-bros.png" data-src="https://topvazstore.github.io/img/super-mario-bros.png" class="small-thumb img-rounded lazyload" alt="Super Mario Bros"></div>
-        <div class="list-info">
-          <div class="list-title">Super Mario Bros</div>
-          <div class="list-category">Running</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/g-switch-3.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/g-switch-3.png" data-src="https://topvazstore.github.io/img/g-switch-3.png" class="small-thumb img-rounded lazyload" alt="G Switch 3"></div>
-        <div class="list-info">
-          <div class="list-title">G Switch 3</div>
-          <div class="list-category">Action</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>    <div class="col-lg-4 col-md-6 grid-2">
-    <a href="/play/tunnel-rush.html">
-    <div class="game-item">
-      <div class="list-game">
-        <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/tunnel-rush.png" data-src="https://topvazstore.github.io/img/tunnel-rush.png" class="small-thumb img-rounded lazyload" alt="Tunnel Rush"></div>
-        <div class="list-info">
-          <div class="list-title">Tunnel Rush</div>
-          <div class="list-category">for Girls</div>
-    
-        </div>
-      </div>
-    </div>
-    </a>
-  </div>  
 
 
 
@@ -1209,7 +1180,6 @@
 
 
 
-</div> <!-- end Poplular -->
 
 
 
@@ -1218,7 +1188,7 @@
 
 
 
-</div> <!-- end container -->
+</div> <!-- end You May Like -->
 	
 	<div class="banner-ad-wrapper">
 		<div class="banner-ad-content" style="padding: 20px 0; text-align: center;">
@@ -1236,6 +1206,43 @@
 
 
 
+    <section class="section-header">
+      <div class="container">
+
+            <div class="post-item">
+              <div class="post-media">
+                <div class="post-thumb">
+                  <img title="Play Now" src="https://topvazstore.github.io/img/soccer-random.png" alt="Soccer Random">
+                </div>
+                <div class="post-body">
+
+                  <div class="post-intro">
+                    <h2>About Soccer Random</h2>
+
+<p>Soccer Random is an exciting online game that offers soccer fans a thrilling and lighthearted gaming experience. Perfect for those who want to enjoy a casual and fun soccer match with friends, this game allows for two-player action and is accessible directly through your web browser. What's more, it's fully compatible with Chromebook computers, ensuring you can dive into the soccer action in fullscreen mode.</p>
+
+<p>One standout feature of Soccer Random is its ad-free gameplay, meaning you and your friends can focus solely on the game without any interruptions. This enhances the overall gaming experience and keeps the excitement levels high.</p>
+
+<p>The game's simplicity is what makes it so enjoyable. It offers fast-paced soccer matches with easy controls, making it accessible to players of all skill levels. Whether you're a seasoned soccer enthusiast or just looking for a quick and entertaining way to compete with friends, Soccer Random has you covered.</p>
+
+<p>So, gather your friends, set up your Chromebooks, and engage in head-to-head soccer matches filled with laughter, competition, and unpredictable gameplay. Soccer Random promises hours of lighthearted entertainment and friendly rivalry for soccer fans of all ages. Get ready to score goals, make epic saves, and have a blast in this two-player soccer extravaganza!</p>
+
+                  </div>
+
+                   
+
+                </div>
+              </div>
+            </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
 
 
 	<div class="footer-copyright py-4">
@@ -1244,11 +1251,11 @@
 				<a href="dmca.html">DMCA</a>			</span>
 		</div>
 	</div>
-	<script type="text/javascript" src="/js/jquery-3.6.2.min.js"></script>
-	<script type="text/javascript" src="/js/lazysizes.min.js"></script>
-	<script type="text/javascript" src="/js/popper.min.js"></script>
-	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="/js/script.js"></script>
-	<script type="text/javascript" src="/js/custom.js"></script>
+	<script type="text/javascript" src="js/jquery-3.6.2.min.js"></script>
+	<script type="text/javascript" src="js/lazysizes.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
 	  </body>
 </html>
