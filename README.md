@@ -1,8 +1,7 @@
 ## https://silkmajoritydifference.github.io/
 
 ```bash
-- Games
+- New games every week!
 - Proxies
-- Anime
 - Share with friends!
 ```
