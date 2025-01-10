@@ -191,4 +191,27 @@
 			  September 10, 2023
 			</div>
 		</div>
+		<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyC62acnZUp_eclHrOGqPyNiVhFmKxihYcc",
+    authDomain: "silkmajoritydifference.firebaseapp.com",
+    projectId: "silkmajoritydifference",
+    storageBucket: "silkmajoritydifference.firebasestorage.app",
+    messagingSenderId: "685229942723",
+    appId: "1:685229942723:web:f7e32b6cb60851791cbf76",
+    measurementId: "G-E5E1C68RVD"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 	</body>
