@@ -1,4 +1,4 @@
-## https://majoritysilkdifference.github.io/
+## https://silkmajordifference.github.io/
 
 ```bash
 - New games every week!
